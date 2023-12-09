@@ -13,13 +13,13 @@
 
 -   Design Template Cart
 
--   Design Template Raport
+-   Design Template Raport :: Finish
 
--   Design Template Pelayanan Pengaduan & Kritik
+-   Design Template Pelayanan Pengaduan & Kritik :: Finish
 
 ## Tech Stack
 
-**Client:** Laravel 8, TailwindCSS, Flowbite
+**Client:** Laravel 8, Bootstrap
 
 **Server:** Composer PHP
 
