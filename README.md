@@ -30,3 +30,9 @@
 **Admin:** Report, Check Notif, Check Pelayanan, Soon
 
 **Dashbiard:** Soon
+
+## Todo 
+
+**Cart:** Upload image, qty, price, Soon
+
+**Get Cart Admin:** Menerima data cart dari customer, Check Pelayanan, Soon
