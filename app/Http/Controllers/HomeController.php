@@ -30,19 +30,20 @@ class HomeController extends Controller
     public function index()
     {
         $keluhan = DB::table('keluhans')
-        ->select('users.*', 'keluhans.*')
-        ->leftJoin('users', 'users.name', '=', 'keluhans.nama')
-        ->where('users.name', '=', Auth::user()->name)
-        // ->where('keluhans.status', '=', '1')
-        ->get();
+            ->select('users.*', 'keluhans.*')
+            ->leftJoin('users', 'users.name', '=', 'keluhans.nama')
+            ->where('users.name', '=', Auth::user()->name)
+            // ->where('keluhans.status', '=', '1')
+            ->get();
 
         $testimoni = DB::table('testimonis')
-        ->select('users.*', 'testimonis.*')
-        ->leftJoin('users', 'users.name', '=', 'testimonis.nama_user')
-        ->where('users.name', '=', Auth::user()->name)
-        // ->where('testimonis.status1', '=', '1')
-        ->get();
- 
+            ->select('users.*', 'testimonis.*')
+            ->leftJoin('users', 'users.name', '=', 'testimonis.nama_user')
+            ->where('users.name', '=', Auth::user()->name)
+            // ->where('testimonis.status1', '=', '1')
+            ->get();
+
+
         return view('home', compact('keluhan', 'testimoni'));
     }
     public function handleAdmin()

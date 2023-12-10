@@ -31,8 +31,31 @@
 
 **Dashbiard:** Soon
 
-## Todo 
+## Todo
 
 **Cart:** Upload image, qty, price, Soon
 
 **Get Cart Admin:** Menerima data cart dari customer, Check Pelayanan, Soon
+
+## Update List
+
+**Navigation Home**
+
+<ul>
+    <li>Add dropdown menu in username after login</li>
+    <li>Move Tesmonial & Keluhan into user profile</li>
+    <li>Move address to footer</li>
+</ul>
+
+**Footer**
+
+<ul>
+    <li>Add brand name</li>
+    <li>Address</li>
+</ul>
+
+**User Profile**
+
+<ul>
+    <li>Create user profile</li>
+</ul>
