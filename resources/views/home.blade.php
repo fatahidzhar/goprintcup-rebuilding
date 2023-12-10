@@ -61,7 +61,28 @@
                         </div>
                         <div class="tab-pane fade show" id="pills-pesanan" role="tabpanel"
                             aria-labelledby="pills-pesanan-tab">
-                            <h2>Pesanan</h2>
+                            <table class="table">
+                                <h2>Pesanan</h2>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">Nomor Transaksi</th>
+                                        <th scope="col">Tanggal</th>
+                                        <th scope="col">Harga</th>
+                                        <th scope="col">Detail Pesanan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach ($transaksi as $item)
+                                        <tr>
+                                            <th scope="row">{{ $loop->iteration }}</th>
+                                            <td>{{ $item->id_transaksi }}</td>
+                                            <td>{{ $item->tanggal }}</td>
+                                            <td>{{ $item->harga }}</td>
+                                        </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
                         </div>
                         <div class="tab-pane fade show" id="pills-testimoni" role="tabpanel"
                             aria-labelledby="pills-testimoni-tab">
