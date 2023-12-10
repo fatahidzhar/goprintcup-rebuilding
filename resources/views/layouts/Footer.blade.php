@@ -1,16 +1,28 @@
  <!-- footer section -->
- <section class="container-fluid footer_section" style="background-color: transparent !important; display: flex;justify-content: flex-end;">
-    <a href="https://api.whatsapp.com/send/?phone=6289504043259&text&type=phone_number&app_absent=0" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" style="width:50px; margin-right:10px;">
-    </a>
+ <section class="container-fluid footer_section"
+     style="background-color: transparent !important; display: flex;justify-content: flex-end;">
+     <a href="https://api.whatsapp.com/send/?phone=6289504043259&text&type=phone_number&app_absent=0" target="_blank">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png"
+             style="width:50px; margin-right:10px;">
+     </a>
  </section>
- <section class="container-fluid ">
+ <section class="container-fluid mt-5">
      <center>
-        <p>
-            Designed Web By
-            <a href="/"><b>Abednego Berly Dewa Nagari</b></a>
-        </p>
-    </center>
+         <a>
+             <span class="font-weight-bold">
+                 Go print Cup
+             </span>
+             <br>
+             <span>
+                 Jl. Wadassari 3 No.22, Pd. Betung, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15221
+             </span>
+         </a>
+
+         <p>
+             Designed Web By
+             <a href="/"><b>Abednego Berly Dewa Nagari</b></a>
+         </p>
+     </center>
  </section>
  <!-- footer section -->
 

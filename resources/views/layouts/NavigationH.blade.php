@@ -1,17 +1,14 @@
 <header class="header_section">
     <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-            <div style="display:flex">
+            <div style="">
                 <a class="navbar-brand" href="/">
                     <img src="images/logo.png" alt="" style="width:100px;" />
                     <div style="display:flex;flex-direction:column;">
                         <span>
-                            Mie Ayam Djoedes Wadassari
+                            Go print Cup
                         </span>
                 </a>
-                <span>
-                    Jl. Wadassari 3 No.22, Pd. Betung, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15221
-                </span>
             </div>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -23,12 +20,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/menu"> Menu </a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a class="nav-link" href="testimoni"> Testimonial </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="keluhan"> Keluhan </a>
-                </li>
+                </li> --}}
             </ul>
         </div>
         <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
@@ -48,15 +45,46 @@
                             12
                         </div>
                     </a>
-                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="home" role="button"
+                    {{-- <a id="navbarDropdown" class="nav-link dropdown-toggle" href="home" role="button"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                         {{ Auth::user()->name }}
-                    </a>
+                    </a> --}}
+
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle text-white" id="navbarDropdown" type="button"
+                            data-toggle="dropdown" aria-expanded="false" v-pre>
+                            {{ Auth::user()->name }}
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="home">Profil</a>
+                            <a class="dropdown-item" href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                                      document.getElementById('logout-form').submit();">
+                                Log Out
+                            </a>
+                            {{-- <a class="dropdown-item" href="#">Something else here</a> --}}
+                        </div>
+                    </div>
                 @elseif(Auth::user()->is_admin == 1)
-                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="admin/home" role="button"
+                    {{-- <a id="navbarDropdown" class="nav-link dropdown-toggle" href="admin/home" role="button"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                         {{ Auth::user()->name }}
-                    </a>
+                    </a> --}}
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle text-white" id="navbarDropdown" type="button"
+                            data-toggle="dropdown" aria-expanded="false" v-pre>
+                            {{ Auth::user()->name }}
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="admin/home">Dashboard</a>
+                            <a class="dropdown-item" href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                                      document.getElementById('logout-form').submit();">
+                                Log Out
+                            </a>
+                            {{-- <a class="dropdown-item" href="#">Something else here</a> --}}
+                        </div>
+                    </div>
                 @endif
                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="{{ route('logout') }}"
