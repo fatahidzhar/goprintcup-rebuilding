@@ -59,3 +59,10 @@
 <ul>
     <li>Create user profile</li>
 </ul>
+
+**Detail Product**
+
+<ul>
+    <li>Create detail product</li>
+    <li>Create add to cart</li>
+</ul>

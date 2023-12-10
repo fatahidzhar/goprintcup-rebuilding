@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\KeluhanController;
 use App\Http\Controllers\LaporanController;
 use App\Http\Controllers\MenuController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PromoController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\TestimoniController;
@@ -51,6 +52,8 @@ Route::resource('admin/customer', UsersContoller::class)->middleware('admin');
 
 Route::post('testimoni', [TestimoniController::class, 'store'])->name('testiomoni.store');
 Route::post('keluhan', [KeluhanController::class, 'store'])->name('keluhan.store');
+
+Route::post('product/{id}', [ProductController::class, 'show']);
 
 Route::get('admin/testimoni', [TestimoniController::class, 'index']);
 Route::get('admin/customer', [CustomerController::class, 'index'])->middleware('admin');
