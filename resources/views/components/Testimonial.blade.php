@@ -50,25 +50,25 @@
                                 <td>{{ $item->tanggal }}</td>
                                 <td>
                                     @if ($item->penilaian == 1)
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
                                     @elseif($item->penilaian == 2)
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
                                     @elseif($item->penilaian == 3)
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
                                     @elseif($item->penilaian == 4)
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
                                     @elseif($item->penilaian == 5)
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
-                                        <i class="bi bi-star-fill" style="color:orangered"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
+                                        <i class="bi bi-star-fill" style="color:blue"></i>
                                     @endif
                                 </td>
                                 @if (request()->is('admin/testimoni')) 

@@ -21,25 +21,25 @@
                         <label>Rating : </label>
                         <input type="hidden" name="penilaian" value="{{ $testimoni->penilaian }}">
                         @if ($testimoni->penilaian == 1)
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
                         @elseif($testimoni->penilaian == 2)
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
                         @elseif($testimoni->penilaian == 3)
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
                         @elseif($testimoni->penilaian == 4)
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
                         @elseif($testimoni->penilaian == 5)
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
                         @endif
                     </div>
                     <div class="form-group">

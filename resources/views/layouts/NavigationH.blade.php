@@ -3,14 +3,14 @@
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
             <div style="display:flex">
                 <a class="navbar-brand" href="/">
-                    <img src="images/logo.png" alt="" style="width:100px;" />
+                    <img src="{{ asset('images/logo.png') }}" alt="" style="width:100px;" />
                     <div style="display:flex;flex-direction:column;">
                         <span>
-                            Mie Ayam Djoedes Wadassari
+                            Go Print CUP 
                         </span>
                 </a>
                 <span>
-                    Jl. Wadassari 3 No.22, Pd. Betung, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15221
+                    Perumnas 1, Jl. Nanas Raya No.43A, RT.003/RW.005, Cibodasari, Kec. Cibodas, Kota Tangerang, Banten 15810
                 </span>
             </div>
     </div>
@@ -21,7 +21,7 @@
                     <a class="nav-link" href="/">Beranda <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/menu"> Menu </a>
+                    <a class="nav-link" href="/product"> Product </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="testimoni"> Testimonial </a>
@@ -34,11 +34,11 @@
         <div class="quote_btn-container ml-0 ml-lg-4 d-flex justify-content-center">
             @guest
                 @if (Route::has('login'))
-                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                    <a class="nav-link bg-primary" href="{{ route('login') }}">{{ __('Login') }}</a>
                 @endif
 
                 @if (Route::has('register'))
-                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                    <a class="nav-link bg-primary" href="{{ route('register') }}">{{ __('Register') }}</a>
                 @endif
             @else
                 @if (Auth::user()->is_admin == 0)

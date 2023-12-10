@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\KeluhanController;
 use App\Http\Controllers\LaporanController;
 use App\Http\Controllers\MenuController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\PromoController;
 use App\Http\Controllers\ReviewController;
 use App\Http\Controllers\TestimoniController;
@@ -29,7 +30,7 @@ Route::get('/keluhan', function () {
     return view('keluhan');
 });
 
-Route::get('/menu', function () {
+Route::get('/product', function () {
     $makanan = Menu::where('kategori', 'Makanan')->get();
     $minuman = Menu::where('kategori', 'Minuman')->get();
     return view('Menu', compact('makanan', 'minuman'));
@@ -48,6 +49,8 @@ Route::resource('admin/keluhan', KeluhanController::class)->middleware('admin');
 Route::resource('admin/testimoni', TestimoniController::class)->middleware('admin');
 Route::resource('admin/transaksi', TransaksiContoller::class)->middleware('admin');
 Route::resource('admin/customer', UsersContoller::class)->middleware('admin');
+
+Route::get('product/{id}', [ProductController::class, 'show']);
 
 Route::post('testimoni', [TestimoniController::class, 'store'])->name('testiomoni.store');
 Route::post('keluhan', [KeluhanController::class, 'store'])->name('keluhan.store');

@@ -13,15 +13,16 @@
                 @csrf
                 <div class="box-body">
                     <div class="form-group">
-                        <label>Nama Menu</label>
+                        <label>Nama Product</label>
                         <input type="text" name="nama" class="form-control">
                     </div>
                     <div class="form-group">
                         <label>Kategori</label>
                         <select name="kategori" class="form-control">
                             <option value="Belum Pilih">--Belum Pilih--</option>
-                            <option value="Minuman">Minuman</option>
-                            <option value="Makanan">Makanan</option>
+                            <option value="Small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
                         </select>
                     </div>
                     <div class="form-group">

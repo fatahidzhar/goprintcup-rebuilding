@@ -3,7 +3,7 @@
     @include('layouts.NavigationH')
     <div class="container-fluid p-5">
         <div>
-            <h2 class="text-center text-white p-4" style="background-color :orangered;">Masukkan Keluhan</h2>
+            <h2 class="text-center text-white p-4" style="background-color :blue;">Masukkan Keluhan</h2>
             <br>
             @guest
                 <div class="quote_btn-container"

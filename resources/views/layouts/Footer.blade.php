@@ -4,11 +4,11 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png" style="width:50px; margin-right:10px;">
     </a>
  </section>
- <section class="container-fluid ">
+ <section class="container-fluid" style="margin-top:20px">
      <center>
         <p>
             Designed Web By
-            <a href="/"><b>Abednego Berly Dewa Nagari</b></a>
+            <a href="/"><b>Linggah</b></a>
         </p>
     </center>
  </section>

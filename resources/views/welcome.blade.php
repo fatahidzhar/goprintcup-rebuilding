@@ -14,25 +14,24 @@
                                         <div class="slider_item-detail">
                                             <div>
                                                 <h1>
-                                                    Mie Ayam <br />
-                                                    Djoedes Wadassari
+                                                    Go Print CUP
                                                 </h1>
                                                 <p>
-                                                    Rasakan sensasi pedas yang membuat Anda ketagihan!
+                                                    Sablon Gelas Plastik Tangerang
                                                 </p>
                                                 <div class="d-flex">
-                                                    <a href="/menu" class="text-uppercase custom_orange-btn mr-3">
-                                                        Menu
-                                                    </a> 
+                                                    <a href="/product" class="text-uppercase custom_orange-btn mr-3">
+                                                    Lihat Product
+                                                    </a>
                                                     <br>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6" style="margin-top:100px; margin-bottom:100px;">
                                         <div class="slider_img-box">
                                             <div>
-                                                <img src="images/slide-img.png" alt="" class="" />
+                                                <img src="https://lh3.googleusercontent.com/p/AF1QipPzqGMQ5y7zzOoiJAK6S9O0cN8BuLrX62OW7Saa=s1360-w1360-h1020" alt="" class="" />
                                             </div>
                                         </div>
                                     </div>
@@ -45,70 +44,70 @@
         </div>
     </section>
     <section>
-  <div class="row d-flex justify-content-center">
-    <div class="col-md-10 col-xl-8 text-center">
-      <h3 class="mb-4">Testimonial</h3>
-      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
-      Banyak pelanggan yang telah memberi testimoni untuk tempat ini!
-      </p>
-    </div>
-  </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-xl-8 text-center">
+                <h3 class="mb-4">Testimonial</h3>
+                <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+                    Banyak pelanggan yang telah memberi testimoni untuk tempat ini!
+                </p>
+            </div>
+        </div>
 
-  <div class="row text-center mb-5">
-  @foreach($testimoni as $item) 
-    <div class="col-md-4 mb-5 mb-md-0">
-      <div class="d-flex justify-content-center mb-4">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
-          class="rounded-circle shadow-1-strong" width="150" height="150" />
-      </div>
-      <h5 class="mb-3">{{ $item->nama_user }}</h5>
-      <h6 class="text-primary mb-3">
-      @if ($item->penilaian == 1)
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-        @elseif($item->penilaian == 2)
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-        @elseif($item->penilaian == 3)
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-        @elseif($item->penilaian == 4)
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-        @elseif($item->penilaian == 5)
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-            <i class="bi bi-star-fill" style="color:orangered"></i>
-        @endif
-      </h6>
-      <p class="px-xl-3">
-        <i class="fas fa-quote-left pe-2"></i>{{ $item->isi }}
-      </p>
-      <ul class="list-unstyled d-flex justify-content-center mb-0">
-        <li>
-          <i class="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i class="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i class="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i class="fas fa-star fa-sm text-warning"></i>
-        </li>
-        <li>
-          <i class="fas fa-star-half-alt fa-sm text-warning"></i>
-        </li>
-      </ul>
-    </div>
-    @endforeach
-  </div>
-</section>
+        <div class="row text-center mb-5">
+            @foreach ($testimoni as $item)
+                <div class="col-md-4 mb-5 mb-md-0">
+                    <div class="d-flex justify-content-center mb-4">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
+                            class="rounded-circle shadow-1-strong" width="150" height="150" />
+                    </div>
+                    <h5 class="mb-3">{{ $item->nama_user }}</h5>
+                    <h6 class="text-primary mb-3">
+                        @if ($item->penilaian == 1)
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                        @elseif($item->penilaian == 2)
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                        @elseif($item->penilaian == 3)
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                        @elseif($item->penilaian == 4)
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                        @elseif($item->penilaian == 5)
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                        @endif
+                    </h6>
+                    <p class="px-xl-3">
+                        <i class="fas fa-quote-left pe-2"></i>{{ $item->isi }}
+                    </p>
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star fa-sm text-warning"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                        </li>
+                    </ul>
+                </div>
+            @endforeach
+        </div>
+    </section>
 
     @include('layouts.Footer')
 @endsection

@@ -23,8 +23,9 @@
                         <label>Kategori</label>
                         <select name="kategori" class="form-control">
                             <option selected value="{{ $menu->kategori }}">--{{ $menu->kategori }}--</option>
-                            <option value="Minuman">Minuman</option>
-                            <option value="Makanan">Makanan</option>
+                            <option value="Small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
                         </select>
                     </div>
                     <div class="form-group">

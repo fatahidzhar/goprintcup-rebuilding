@@ -29,15 +29,10 @@
                                                 <div>
                                                     <h5 class="dish-title">{{ $item->nama }}</a></h5>
                                                 </div>
-                                                <div>
-                                                    <i class="bi bi-star-fill" style="color:orangered"></i>
-                                                    <i class="bi bi-star-fill" style="color:orangered"></i>
-                                                    2/5
-                                                </div>
                                             </div>
-                                            <span class="dish-meta">Harga</span>
+                                            <span class="dish-meta">Harga Rp. {{ number_format($item->harga) }}</span>
                                             <div class="dish-price">
-                                                <p>Rp. {{ number_format($item->harga) }} | <a href=""
+                                                <p> <a href="" class="cart">LIHAT</a> | <a href=""
                                                         class="cart">TAMBAH CART</a></p>
                                             </div>
                                         </div>

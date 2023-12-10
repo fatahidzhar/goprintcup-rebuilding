@@ -4,7 +4,7 @@
     <div class="container-fluid p-5" style="height: 100%;">
         <div>
             <div>
-                <h2 class="text-center text-white p-4" style="background-color :orangered;">Keranjang Menu</h2>
+                <h2 class="text-center text-white p-4" style="background-color :blue;">Keranjang Menu</h2>
             </div>
             <div style="display: flex; margin-bottom:10px;">
                 <img src="https://picsum.photos/300/300
@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div
-                style="margin-top:10px;display: flex;justify-content: flex-end;align-items: center;background-color :orangered;">
+                style="margin-top:10px;display: flex;justify-content: flex-end;align-items: center;background-color :blue;">
                 <div>
                     <h5 class="dish-title" style="color: #fff; padding:10px; margin-top:10px;"><b>Total Harga :</b></h5>
                 </div>

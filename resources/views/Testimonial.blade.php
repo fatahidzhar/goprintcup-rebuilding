@@ -3,7 +3,7 @@
     @include('layouts.NavigationH')
     <div class="container-fluid p-5" style="height: 100%;">
         <div>
-            <h2 class="text-center text-white p-4" style="background-color :orangered;">Masukkan Testimoni</h2>
+            <h2 class="text-center text-white p-4" style="background-color :blue;">Masukkan Testimoni</h2>
 
             <br>
             @guest
@@ -37,32 +37,32 @@
                         <label class="col-sm-2 col-form-label fw-bolder">Beri Nilai</label>
                         <div class="col-sm-10">
                             <input type="radio" name="penilaian" value="1">
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
                             <br>
 
                             <input type="radio" name="penilaian" value="2">
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
                             <br>
 
                             <input type="radio" name="penilaian" value="3">
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
                             <br>
 
                             <input type="radio" name="penilaian" value="4">
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
                             <br>
                             <input type="radio" name="penilaian" value="5">
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
-                            <i class="bi bi-star-fill" style="color:orangered"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
+                            <i class="bi bi-star-fill" style="color:blue"></i>
                         </div>
                     </div>
                     <div class="row justify-content-end">

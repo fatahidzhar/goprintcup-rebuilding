@@ -52,12 +52,12 @@ body {
 }
 
 .custom_orange-btn {
-  background-color: #fc5d35;
+  background-color: #356afc;
 }
 
 .custom_orange-btn:hover {
-  border: 1px solid #fc5d35;
-  color: #fc5d35;
+  border: 1px solid #356afc;
+  color: #356afc;
   background-color: transparent;
 }
 
