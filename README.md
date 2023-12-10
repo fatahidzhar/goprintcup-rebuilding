@@ -39,20 +39,23 @@
 
 ## Update List
 
--   Navigation Home
+**Navigation Home**
+
 <ul>
     <li>Add dropdown menu in username after login</li>
     <li>Move Tesmonial & Keluhan into user profile</li>
     <li>Move address to footer</li>
 </ul>
 
--   Footer
+**Footer**
+
 <ul>
     <li>Add brand name</li>
     <li>Address</li>
 </ul>
 
--   User Profile
+**User Profile**
+
 <ul>
     <li>Create user profile</li>
 </ul>
