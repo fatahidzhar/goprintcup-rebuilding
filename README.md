@@ -66,3 +66,11 @@
     <li>Create detail product</li>
     <li>Create add to cart</li>
 </ul>
+
+**Register**
+
+-   Add value 0 to status, kunjungan & point
+
+**Menu**
+
+-   Card product

@@ -20,7 +20,7 @@
 
          <p>
              Designed Web By
-             <a href="/"><b>Abednego Berly Dewa Nagari</b></a>
+             <a href="/"><b>Linggah</b></a>
          </p>
      </center>
  </section>

@@ -39,11 +39,8 @@
                 @endif
             @else
                 @if (Auth::user()->is_admin == 0)
-                    <a href="cart" style="display:flex;border-right: 2px solid #fff;">
+                    <a href="/cart" style="display:flex;border-right: 2px solid #fff;">
                         <i class="bi bi-basket3-fill"></i>
-                        <div style="margin-left: 5px">
-                            12
-                        </div>
                     </a>
                     {{-- <a id="navbarDropdown" class="nav-link dropdown-toggle" href="home" role="button"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

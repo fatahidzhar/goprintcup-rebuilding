@@ -4,7 +4,7 @@
     @include('layouts.Sidebar')
     <div class="content-wrapper" style="padding: 15px">
         <div class="box">
-            <a href="menu/create" class="btn btn-primary" style="margin: 10px;">Tambah Menu</a>
+            <a href="menu/create" class="btn btn-primary" style="margin: 10px;">Tambah Product</a>
             <div class="box-header">
                 <h3 class="box-title">Data Menu</h3>
             </div><!-- /.box-header -->

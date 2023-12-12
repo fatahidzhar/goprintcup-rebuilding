@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class CartController extends Controller
 {
@@ -13,6 +15,13 @@ class CartController extends Controller
      */
     public function index()
     {
+
+        $cart = DB::table('carts')
+        ->where('id_users', Auth::user()->id)
+        ->get();
+
+        dd($cart);
+
         return view('cart');
     }
 

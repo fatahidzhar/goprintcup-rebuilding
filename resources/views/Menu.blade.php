@@ -32,7 +32,7 @@
                                             </div>
                                             <span class="dish-meta">Harga Rp. {{ number_format($item->harga) }} </span>
                                             <div class="dish-price">
-                                                <p><a href=""
+                                                <p><a href="product/{{ $item->id }}"
                                                     class="cart">DETAIL</a> | <a href=""
                                                         class="cart">TAMBAH CART</a></p>
                                             </div>

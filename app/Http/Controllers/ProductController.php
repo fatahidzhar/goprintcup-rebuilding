@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Cart;
 use App\Models\Menu;
 use Illuminate\Http\Request;
 
@@ -35,7 +36,16 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $product = new Cart();
+        $product->id_users = $request->id_users;
+        $product->nama_product = $request->nama_product;
+        $product->qty = $request->qty;
+        $product->harga = $request->harga;
+        $product->save();
+
+        session()->flash('success', 'Produk berhasil ditambahkan ke keranjang.');
+        
+        return back();
     }
 
     /**
@@ -44,9 +54,9 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id_menu)
+    public function show($id)
     {
-        $menu = Menu::first();
+        $menu = Menu::where('id', $id)->first();
         return view('components.show.DetailProduct', compact('menu'));
     }
 
