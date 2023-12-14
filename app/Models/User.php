@@ -23,7 +23,10 @@ class User extends Authenticatable
         'password',
         'is_admin',
         'no_hp',
-        'alamat'
+        'alamat',
+        'status',
+        'kunjungan',
+        'point',
     ];
 
     public static function show($no_hp)

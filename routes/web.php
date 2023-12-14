@@ -30,9 +30,10 @@ Route::get('/keluhan', function () {
 });
 
 Route::get('/menu', function () {
-    $makanan = Menu::where('kategori', 'Makanan')->get();
-    $minuman = Menu::where('kategori', 'Minuman')->get();
-    return view('Menu', compact('makanan', 'minuman'));
+    // $makanan = Menu::where('kategori', 'Makanan')->get();
+    // $minuman = Menu::where('kategori', 'Minuman')->get();
+    $product = Menu::all();
+    return view('Menu', compact('product'));
 });
 
 

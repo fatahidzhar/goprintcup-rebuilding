@@ -43,8 +43,12 @@ class HomeController extends Controller
             // ->where('testimonis.status1', '=', '1')
             ->get();
 
+        $transaksi = DB::table('transaksis')
+            ->where('users_id', '=', Auth::user()->id)
+            ->get();
 
-        return view('home', compact('keluhan', 'testimoni'));
+
+        return view('home', compact('keluhan', 'testimoni', 'transaksi'));
     }
     public function handleAdmin()
     {
