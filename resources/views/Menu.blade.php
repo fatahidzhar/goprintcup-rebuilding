@@ -8,7 +8,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                     <div class="page-section">
                         <br><br>
-                        <h2 class="page-title"><b>Makanan</b></h2></br></br>
+                        <h2 class="page-title"><b>Category</b></h2></br></br>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                         <div class="page-section">
                             <br><br>
-                            <h2 class="page-title"><b>Minuman</b></h2></br></br>
+                            <h2 class="page-title"><b></b></h2></br></br>
                         </div>
                     </div>
                 </div>

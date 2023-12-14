@@ -25,7 +25,7 @@
              <li class="treeview">
                  <a href="/admin/menu">
                      <i class="fa fa-cutlery"></i>
-                     <span>Menu</span>
+                     <span>Product</span>
                  </a>
              </li>
              <li class="treeview">
