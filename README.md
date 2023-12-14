@@ -29,8 +29,6 @@
 
 **Admin:** Report, Check Notif, Check Pelayanan, Soon
 
-**Dashbiard:** Soon
-
 ## Todo
 
 **Cart:** Upload image, qty, price, Soon
@@ -50,8 +48,8 @@
 **Footer**
 
 <ul>
-    <li>Add brand name</li>
-    <li>Address</li>
+    <li>Add brand name :: finish</li>
+    <li>Address :: finish</li>
 </ul>
 
 **User Profile**
@@ -63,8 +61,9 @@
 **Detail Product**
 
 <ul>
-    <li>Create detail product</li>
-    <li>Create add to cart</li>
+    <li>Create detail product :: finish</li>
+    <li>Create add to cart :: pending</li>
+    <li>Create checkot</li>
 </ul>
 
 **Register**

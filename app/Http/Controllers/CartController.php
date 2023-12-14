@@ -20,9 +20,7 @@ class CartController extends Controller
         ->where('id_users', Auth::user()->id)
         ->get();
 
-        dd($cart);
-
-        return view('cart');
+        return view('cart', compact('cart'));
     }
 
     /**

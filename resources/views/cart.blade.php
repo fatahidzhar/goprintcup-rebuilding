@@ -6,24 +6,17 @@
             <div>
                 <h2 class="text-center text-white p-4" style="background-color :orangered;">Keranjang Menu</h2>
             </div>
-            <div style="display: flex; margin-bottom:10px;">
-                <img src="https://picsum.photos/300/300
+            @foreach ($cart as $item)
+                <div style="display: flex; margin-bottom:10px;">
+                    <img src="https://picsum.photos/300/300
                 " alt="" width="100px">
-                <div style="margin-left: 20px">
-                    <h5 class="dish-title">Nama makanan</h5>
-                    <p class="dish-meta">Rp. 20.000</p>
-                    <input type="number" name="" id="" value="1" min="1">
+                    <div style="margin-left: 20px">
+                        <h5 class="dish-title">{{ $item->nama_product }}</h5>
+                        <p class="dish-meta">Rp. {{ $item->harga }}</p>
+                        <input type="number" name="" id="" value="{{ $item->qty }}" min="1">
+                    </div>
                 </div>
-            </div>
-            <div style="display: flex">
-                <img src="https://picsum.photos/300/300
-                " alt="" width="100px">
-                <div style="margin-left: 20px">
-                    <h5 class="dish-title">Nama makanan</h5>
-                    <p class="dish-meta">Rp. 20.000</p>
-                    <input type="number" name="" id="" value="1" min="1">
-                </div>
-            </div>
+            @endforeach
             <div
                 style="margin-top:10px;display: flex;justify-content: flex-end;align-items: center;background-color :orangered;">
                 <div>
