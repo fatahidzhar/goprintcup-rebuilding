@@ -9,13 +9,15 @@
 
 ## Soon
 
--   Design Template Customer
+-   Design Template Customer :: Pending
 
--   Design Template Cart
+-   Design Template Cart ::  Finish
 
 -   Design Template Raport :: Finish
 
 -   Design Template Pelayanan Pengaduan & Kritik :: Finish
+
+-   Design Invoice Chekout :: Pending
 
 ## Tech Stack
 
@@ -62,8 +64,8 @@
 
 <ul>
     <li>Create detail product :: finish</li>
-    <li>Create add to cart :: pending</li>
-    <li>Create checkot</li>
+    <li>Create add to cart :: finish</li>
+    <li>Create checkot :: proses</li>
 </ul>
 
 **Register**

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\KeluhanController;
@@ -67,6 +68,7 @@ Route::get('admin/laporan/exportPDFKeluhan', [LaporanController::class, 'exportP
 Route::get('admin/laporan/exportPDFCustomer', [LaporanController::class, 'exportPDFCustomer'])->name('laporan.exportPDFCustomer');
 
 Route::resource('cart', CartController::class)->middleware('auth');
+Route::resource('checkout', CheckoutController::class)->middleware('auth');
 // Laporan
 
 Route::get('admin/laporan/keluhan', [KeluhanController::class, 'index']);
